@@ -1,0 +1,309 @@
+/* GLOBAL */
+body {
+  margin: 0px;
+  color: #ffffff !important;
+  font-family: "Poppins";
+  background-color: #0050FF !important;
+  padding-bottom: 100px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+blockquote,
+dd {
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+/* COMPONENTES */
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*FONTES*/
+.font-Pop-XS {
+  font: 500 2rem/1.25 "Poppins", sans-serif;
+}
+
+.font-Pop-P {
+  font: 300 1rem/1.5 "Poppins", sans-serif;
+}
+
+/* HOME */
+
+.header {
+  background-color: #0050FF;
+  padding: 20px 0px;
+}
+
+.header img {
+  width: 130px;
+  margin: 0px auto;  
+}
+
+.intro {
+  background-color: #003399;
+}
+
+.intro-text {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 50px;
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+.intro-text p {
+  font-size: 1.25rem;
+}
+
+/* CRONOGRAMA */
+
+.cronogama-bg {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.aulas-gratis {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0px 40px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.aulas-gratis h3 {
+  padding-bottom: 10px;
+}
+
+.aulas-gratis p {
+  font-weight: 600;
+}
+
+/* CASHBACK */
+
+.cashback {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  padding-bottom: 30px;
+  padding-left: 200px;
+}
+
+.cashback img {
+  padding-top: 20px;
+  width: 200px;
+}
+
+.cashback-text {
+  padding-top: 60px;
+  padding-left: 40px;
+  padding-right: 200px;
+}
+
+/* BONUS */
+
+.bonus-bg {
+  background-color: #003399;
+}
+
+#comece-ja {
+  font-size: 0.85rem;
+  text-align: center;
+  color: #6AA9FF;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+
+.bonus {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bonus-off {
+display: grid;
+padding-left: 120px;
+grid-template-columns: 1fr 1fr;
+padding-top: 30px;
+gap: 30px;
+}
+
+.bonus-off h2 {
+  text-align: right;
+  font-size: 2.5rem;
+  padding-top: 15px;
+}
+
+#maisbonus {
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-align: center;
+  color: #003399;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.bonus-benef {
+  max-width: 800px;
+  margin-left: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  padding: 30px 100px;
+  gap: 40px;
+}
+
+.bonus-benef-flex {
+  display: flex;
+}
+
+.bonus-benef-flex p {
+  font-size: 1.25rem;
+  padding-top: 50px;
+}
+
+/* AULAS */
+
+.aulas-bg {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.aulas-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 30px;
+  padding-top: 30px;
+}
+
+.aulas {
+  padding: 0px 20px;
+  border: solid #0050FF 0.1rem;
+  border-radius: 1.25rem;
+  margin-bottom: 30px;
+}
+
+.aulas img {
+  margin: 0px auto;
+}
+
+.aulas h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.aulas ul {
+  height: 280px;
+}
+
+.aulas li {
+  background-color: #F2F2F2;
+  padding: 5px;
+}
+
+.aulas li:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.aulas a img {
+  width: 225px;
+  padding-bottom: 30px;
+}
+
+/* FALE COM A GENTE */
+  .fale-conosco-bg {
+    background-color: #003399;
+  }
+
+  .fale-conosco {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 40px;
+  }
+
+  .fale-conosco p {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .fale-conosco-border {
+    width: 95%;
+    padding: 20px;
+    border: solid #0050FF 0.1rem;
+    border-radius: 1.25rem;
+  }
+
+  .fale-conosco-border img {
+    margin: 0px auto;
+  }
+
+
+  /* GARANTIA */
+
+  .garantia-bg {
+    padding: 50px 0px;
+    background: #e3eeff;
+    color: #050505b0;
+    border-top: 10px solid #0050ff;
+  }
+
+  .garantia p {
+    text-align: center;
+    color: #0000008a;
+    font-weight: 400;
+    letter-spacing: 0;
+    padding-bottom: 20px;
+  }
+
+  .garantia h2 {
+    text-align: center;
+    padding: 0px 200px;
+    color: #003ecf;
+    font-size: 50px;
+    line-height: 1;
+    margin-bottom:20px;
+  }
+
+  .garantia-btn {
+    margin: 0px auto;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    background: #0050ff;
+    color: #fff;
+    border-radius: 50px;
+  }
